@@ -15,4 +15,8 @@ What I want to do its not possible because the only entry point its the main.
 So now I have to run each method in the main file.
 
 
+# Example of how to commit
 
+The step before to do this is just to make some changes to a file and then these options appears.
+
+https://stackoverflow.com/a/45892940
