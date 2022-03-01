@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B789165F27CDCD0A004781DE /* switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789165E27CDCD0A004781DE /* switch.swift */; };
 		B7DCB0C027BF3F2300552408 /* comparision_operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCB0BF27BF3F2300552408 /* comparision_operators.swift */; };
 		B7DCB0C227BF4F3D00552408 /* range_operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCB0C127BF4F3D00552408 /* range_operators.swift */; };
 		B7FF4BE027A8E4F4002B7D63 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF4BDF27A8E4F4002B7D63 /* main.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B789165E27CDCD0A004781DE /* switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switch.swift; sourceTree = "<group>"; };
 		B7DCB0BD27BF3C4900552408 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B7DCB0BF27BF3F2300552408 /* comparision_operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comparision_operators.swift; sourceTree = "<group>"; };
 		B7DCB0C127BF4F3D00552408 /* range_operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = range_operators.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B789165D27CDCC93004781DE /* control_flow */ = {
+			isa = PBXGroup;
+			children = (
+				B789165E27CDCD0A004781DE /* switch.swift */,
+			);
+			path = control_flow;
+			sourceTree = "<group>";
+		};
 		B7DCB0BE27BF3E8000552408 /* basic_operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		B7FF4BD327A8E4F4002B7D63 = {
 			isa = PBXGroup;
 			children = (
+				B789165D27CDCC93004781DE /* control_flow */,
 				B7DCB0BE27BF3E8000552408 /* basic_operators */,
 				B7DCB0BD27BF3C4900552408 /* README.md */,
 				B7FF4BDE27A8E4F4002B7D63 /* basics */,
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7DCB0C027BF3F2300552408 /* comparision_operators.swift in Sources */,
+				B789165F27CDCD0A004781DE /* switch.swift in Sources */,
 				B7FF4BE027A8E4F4002B7D63 /* main.swift in Sources */,
 				B7DCB0C227BF4F3D00552408 /* range_operators.swift in Sources */,
 			);

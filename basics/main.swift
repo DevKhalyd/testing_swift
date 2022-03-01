@@ -40,6 +40,7 @@ func optionalBindingComplex(){
 
 func main() {
     print("This is the entry point to test each part of my application")
+    testingSwitch()
 }
 
 main()
